@@ -3,7 +3,7 @@ código del pozo (ej. YOP-AGZ-017), municipio (Aguazul, Tauramena, Monterrey, Ma
 tipo de evento (FUGA, MANTENIMIENTO, LECTURA_PRESION, CIERRE_TURNO), descripción y fecha-hora. 
 El evento queda en el tope de la pila. */
 
-package JavaAplications;
+package PARCIAL3KALETH;
 
 public class Inspeccion {
 

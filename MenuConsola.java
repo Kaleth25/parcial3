@@ -2,7 +2,7 @@
 captura entrada con Scanner, valida y 
 delega al GestorInspecciones. NO debe contener lógica de la pila. */
 
-package JavaAplications;
+package PARCIAL3KALETH;
 
 import java.util.Scanner;
 
@@ -22,6 +22,10 @@ public class MenuConsola{
             System.out.println("5. Listar eventos registrados");
             System.out.println("0. Salir");
             System.out.print("Seleccione una opción: ");
+            if (!scanner.hasNextInt()) {
+                System.out.println("Entrada no válida. Saliendo...");
+                break;
+            }
             opcion = scanner.nextInt();
             scanner.nextLine(); // Consumir el salto de línea
             

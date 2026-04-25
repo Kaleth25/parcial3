@@ -1,7 +1,7 @@
 /*Lógica de negocio: orquesta la pila principal y la pila de Undo. Métodos: 
 registrarEvento, revisarUltimo, retirarUltimo, deshacerUltimaAccion, listarEventos. */
 
-package JavaAplications;
+package PARCIAL3KALETH;
 
 public class GestorInspecciones {
     

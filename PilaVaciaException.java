@@ -1,6 +1,6 @@
 /* Excepción lanzada al intentar pop o peek sobre una pila vacía.*/ 
 
-package JavaAplications;
+package PARCIAL3KALETH;
 
 public class PilaVaciaException extends Exception {
     public PilaVaciaException() {

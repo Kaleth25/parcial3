@@ -1,6 +1,6 @@
 /*  Excepción lanzada al intentar push cuando se alcanza la capacidad máxima (si se usa arreglo). */
 
-package JavaAplications;
+package PARCIAL3KALETH;
 
 public class PilaLlenaException extends Exception{
     public PilaLlenaException() {

@@ -1,6 +1,6 @@
 // Implementación de la pila desde cero con sus operaciones push, pop, peek, isEmpty, size, mostrarDesdeElTope.
 
-package JavaAplications;
+package PARCIAL3KALETH;
 
 public class PilaEventos {
     
