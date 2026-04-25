@@ -13,6 +13,8 @@ public class MenuConsola{
         Scanner scanner = new Scanner(System.in);
         int opcion;
 
+        /*Imprimir en pantalla */
+
         do {
             System.out.println("Menú de Inspecciones:");
             System.out.println("1. Registrar nuevo evento de inspección");
