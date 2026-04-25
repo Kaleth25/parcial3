@@ -53,6 +53,7 @@ public class GestorInspecciones {
         }
     }
 
+    /* Deshace la última acción realizada */
     public void deshacerUltimaAccion() {
         if (pilaUndo.isEmpty()) {
             System.out.println("La pila está vacía. No se pueden realizar operaciones pop o peek.");
