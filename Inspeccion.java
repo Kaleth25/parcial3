@@ -7,11 +7,15 @@ package PARCIAL3KALETH;
 
 public class Inspeccion {
 
+    /*atributos */
+
     private String codigoPozo;
     private String municipio;
     private String tipoEvento;
     private String descripcion;
     private String fechaHora;
+
+    /*constructor */
     
     public Inspeccion(String codigoPozo, String municipio, String tipoEvento, String descripcion, String fechaHora) {
         this.codigoPozo = codigoPozo;
@@ -40,6 +44,8 @@ public class Inspeccion {
     public String getFechaHora() {
         return fechaHora;
     }
+
+    /*metodo toString */
 
     public String toString() {
         return "Inspeccion{" +
